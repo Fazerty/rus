@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+}
+
+.Animated-logo {
+  height: 120px;
+  padding: 0px;
+  margin: -20px;
+}
+
+.App-header {
+  background-color: rgb(30, 29, 59);
+  height: 140px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+li.Checked:before {
+  content: '✓\00a0'; 
+  color: green;
+  font-size: large;
+ }
+ li:not(.Checked):before {
+  content: '?\00a0'; 
+  color: rgb(134, 155, 124);
+  font-size: large;
+ }
+
+
+.App-body {
+  display: flex;
+  flex-direction: row;
+} 
+
+.Left-menu {
+  display: flex;
+  flex-direction: column;
+  min-width: 20%;
+  margin: 5px;
+  font-size: 10px;
+} 
+
+label {
+  display: inline-block;
+  width: 140px;
+  text-align: right;
+  margin-right: 10px;
+  padding: 10px;
+  font-weight: bold;
+}​
+
+.Content {
+  min-width: 100%;
+} 
+
+.Code {
+  font-size: 13px;
+  margin: 0%;
+  padding: 0px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.AlignLeft {
+  text-align: left;
+}
+
+.CodeSpiral {
+  margin: auto;
+  display: grid;
+  width: 150px;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  background-color: white;
+  padding: 10px;
+}
