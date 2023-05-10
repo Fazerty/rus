@@ -81,3 +81,30 @@ label {
   background-color: white;
   padding: 10px;
 }
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  gap: 8px;
+}
+
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  height: 50px;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.move-button {
+  font-size: 24px;
+  margin: 0 8px;
+}
